@@ -11,6 +11,12 @@ This project is a headless Linux application server that manages local storage, 
 * Monitoring & Diagnostics: Uptime Kuma, Jellystat, PostgreSQL Database
 * Storage Configuration: Local Ext4 storage arrays with persistent volume mapping
 
+## Custom Hardware Configuration (Built & Maintained Locally)
+* **CPU:** AMD Ryzen 5 2600X (6 Cores / 12 Threads)
+* **RAM:** 16GB DDR4 Dual-Channel @ 3200MHz
+* **GPU:** NVIDIA Quadro P1000 (Dedicated GPU passed through to Docker for hardware acceleration)
+* **Storage:** 2x 3TB 7200RPM HDD mechanical drives (Dedicated local storage array)
+
 ---
 
 ## Core Project Features
